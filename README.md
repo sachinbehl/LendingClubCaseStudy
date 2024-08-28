@@ -1,5 +1,5 @@
-# Project Name
-> Outline a brief description of your project.
+# Lending Club Case Study
+> This project analyzes loan data from Lending Club to identify key factors influencing loan defaults using Exploratory Data Analysis (EDA). The goal is to minimize financial risk by predicting borrower behavior.
 
 
 ## Table of Contents
@@ -8,45 +8,40 @@
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
-
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- Project Background: The study is focused on risk analytics in financial services, specifically examining loan default behaviors at Lending Club.
+- Business Problem: The goal is to identify high-risk borrowers to reduce potential financial losses from defaults.
+- Dataset: The project uses past loan applicant data, including borrower profiles, loan terms, and repayment statuses.
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+### What We Did:
+- We used various data points—like loan grades, borrower behavior, and loan purposes—to figure out what makes someone more likely to default on their loan. We built a Credit Risk Score that combines these factors and tells us how risky each loan is.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+### Key Findings:
+- Loan Grades Matter: Loans with lower grades (D, E, F, G) had a much higher chance of defaulting compared to higher grades (A, B, C).
+- High Utilization Rates Are Risky: Borrowers using a lot of their available credit were more likely to default.
+- Loan Purpose is Key: Loans for things like Small Business and Renewable Energy showed higher default rates, so they’re riskier.
+- Past Behavior Predicts Future Risk: Borrowers with past delinquencies were more likely to default again, which makes sense—past behavior is a strong indicator of future actions.
+- Location Matters: Some states like Nevada and Florida showed higher default rates, meaning geographical location plays a role in risk.
+
+### Credit risk score
+- We combined all these factors into a Credit Risk Score, fine-tuning the weights of each factor to reflect their impact on default risk.
+- The score effectively separated risky loans from safer ones, helping us identify which loans need stricter approval criteria or higher interest rates
+
+### Recommendations:
+- Use the Score in Decision-Making: The Credit Risk Score can help the company decide which loans to approve, adjust loan terms, or set interest rates based on risk levels.
+- Focus on High-Risk Areas: Be extra cautious with loans for risky purposes or in high-default states.
+- Keep Updating the Score: Regularly check and adjust the Credit Risk Score to keep it accurate as market conditions change.
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Python 3.x
+- Pandas
+- Seaborn
+- Matplotlib
+- Jupyter Notebook
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by @sachinbehl - feel free to contact me!
